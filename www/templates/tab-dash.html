@@ -1,0 +1,36 @@
+<ion-view view-title="Dashboard">
+    <ion-side-menus>
+    <ion-side-menu-content>
+    <ion-header-bar class="bar-dark">
+        <h1 class="title">Actions</h1>
+      </ion-header-bar>
+      <ion-content class="padding" scroll="false">
+          <h2>Welcome to Xpnsr</h2>
+          <p>
+            This is a very simple application to have a track of expenses.
+          </p>
+          <button class="button button-positive" ng-click="showAlert()">Alert</button>
+        </ion-content>
+    </ion-side-menu-content>
+    <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Expenses</h1>
+    </ion-header-bar>
+     <ion-content class="padding" scroll="false">
+          <h2>Here's a Menu</h2>
+          <p>Some explanation here about usage</p>
+          <ion-list>
+  <ion-item>Hello!</ion-item>
+  <ion-item>
+    <button class="button button-positive" ng-click="showAlert()">Message!</button>
+  </ion-item>
+</ion-list>
+        </ion-content>
+    </ion-side-menu>
+  </ion-side-menus>
+
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+</ion-view>
