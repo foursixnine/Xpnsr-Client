@@ -1,17 +1,21 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope, $ionicPopup) {
+.controller('DashCtrl', function($scope, $ionicPopup, $filter) {
 
   $scope.showAlert = function() {
    var alertPopup = $ionicPopup.alert({
      title: 'Don\'t eat that!',
-     template: 'It might taste good'
+     template: 'It might taste good </br>' + $filter('date')(Date.now(), 'yyyy-MM-ddTHH:mm:ss.sssZ')
    });
 
    alertPopup.then(function(res) {
      console.log('Thank you for not eating my delicious ice cream cone');
    });
  };
+
+})
+
+.controller('registerController', function($scope, Register) {
 
 })
 
