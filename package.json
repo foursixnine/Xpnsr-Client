@@ -1,7 +1,7 @@
 {
   "name": "xpnsr",
   "version": "1.1.1",
-  "description": "Xpnsr: An Ionic project",
+  "description": "Xpnsr App: A budgeting tool",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
